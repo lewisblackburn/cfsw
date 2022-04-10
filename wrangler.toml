@@ -1,0 +1,12 @@
+name = "pay"
+type = "javascript"
+zone_id = "b1d4624579054d4036e10a7f1b7f5efc"
+account_id = "53c964321b49b5533c2b96c9168e6b2c"
+route = "pay.lew.sh"
+workers_dev = true
+compatibility_date = "2022-04-10"
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
